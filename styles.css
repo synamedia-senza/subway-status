@@ -1,0 +1,66 @@
+.orientation0 {
+   left: 0px;
+   bottom: 0px;
+ }
+
+.orientation90 {
+  transform: rotate(90deg);
+  left: 420px;
+  bottom: 420px;
+}
+
+.orientation180 {
+  transform: rotate(180deg);
+  left: 0px;
+  bottom: 0px;
+}
+
+.orientation270 {
+  transform: rotate(270deg);
+  left: 420px;
+  bottom: 420px;
+}
+
+body {
+	margin: 0px;
+	background-color: black;
+  /* overflow: hidden; */
+  font: 30pt Helvetica;
+  color: black;
+}
+
+#main {
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  position: relative;
+	background-color: white;
+}
+
+.bullet {
+  width: 50px;
+  height: 50px;
+  margin-bottom: -11px;
+}
+
+.category {
+  font: 20pt Helvetica;
+  color: #777;
+  border-bottom: 1px solid black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.problem {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.station {
+  font-weight: bold;
+}
