@@ -21,11 +21,22 @@
   bottom: 420px;
 }
 
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("fonts/HelveticaNeueRoman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    src: url("fonts/HelveticaNeueBold.otf") format("opentype");
+}
+
 body {
 	margin: 0px;
 	background-color: black;
-  /* overflow: hidden; */
-  font: 30pt Helvetica;
+  overflow: hidden;
+  font: 30pt HelveticaNeue, Helvetica;
   color: black;
 }
 
